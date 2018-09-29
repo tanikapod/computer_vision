@@ -17,11 +17,13 @@ Saturation range is [0,255]
 Value range is [0,255]
 
 Saves given BGR image as a new .png image file, converted to HSV.
+
+image_data - BGR image as numpy array.
 '''
-def convert_to_HSV(filename):
-    image_data = load_image(filename)
+def convert_to_HSV(image_data):
+    #image_data = load_image(filename)
     image_HSV = cv.cvtColor(image_data, cv.COLOR_BGR2HSV)
-    cv.imwrite('HSV' + filename, image_HSV)
+    #cv.imwrite('HSV' + filename, image_HSV)
     return image_HSV
 
 
