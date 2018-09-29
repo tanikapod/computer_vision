@@ -2,9 +2,9 @@ import cv2 as cv # openCV
 import numpy as np
 
 '''
-filename - name of image to load, as string
-
 Loads image as BGR numpy array.
+
+filename - name of image to load, as string
 '''
 def load_image(filename):
     image_BGR = np.asarray(cv.imread(filename))
@@ -26,4 +26,6 @@ def convert_to_HSV(filename):
 
 
 if __name__ == '__main__':
-    convert_to_HSV('test.png')
+    #convert_to_HSV('test.png')
+    #convert_to_HSV('dog.jpg')
+    pass
