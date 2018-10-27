@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-import cv2
+import cv2 as cv
 from sensor_msgs.msg import Image
 from geometry_msgs.msg import Point
 from cv_bridge import CvBridge, CvBridgeError
@@ -46,4 +46,4 @@ if name == '__main__':
 	try:
 		rospy.spin()
 	except KeyboardInterrupt:
-		cv2.destroyAllWindows()
+		cv.destroyAllWindows()
