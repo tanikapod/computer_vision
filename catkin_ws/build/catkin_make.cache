@@ -1,0 +1,2 @@
+object_recognition
+-DCATKIN_DEVEL_PREFIX=/home/tanya/computer_vision/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tanya/computer_vision/catkin_ws/install -G Unix Makefiles
