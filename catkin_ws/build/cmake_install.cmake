@@ -117,6 +117,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/tanya/computer_vision/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/tanya/computer_vision/catkin_ws/build/usb_cam/cmake_install.cmake")
   include("/home/tanya/computer_vision/catkin_ws/build/object_recognition/cmake_install.cmake")
 
 endif()
